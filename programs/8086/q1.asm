@@ -30,13 +30,14 @@ handle_carry:
     mov al, ah       ; Store the lower 8 bits in AL
     and al, 0Fh      ; Extract the lower nibble
     add al, 30h      ; Convert to ASCII
-    mov result, al   ; Store the ASCII result
+    mov dl, al       ; Move the ASCII value to DL for display
+    mov ah, 02h      ; Set the display function
+    int 21h          ; Display the lower nibble
+
     mov al, ah       ; Store the higher 8 bits in AL
     shr al, 4        ; Shift to get the higher nibble
     add al, 30h      ; Convert to ASCII
-    mov dl, al       ; Move the higher nibble to DL for display
-    mov ah, 02h      ; Set the display function
-    int 21h          ; Display the ASCII result
+    mov result, al   ; Store the ASCII result in the variable
 
 display_result:
     ; Display the message
