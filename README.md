@@ -9,7 +9,7 @@ This repository is dedicated to serving two main objectives. Firstly, it hosts a
   
   - [8086](./programs/8086/README.md): This directory focuses on the 8086 microprocessor, hosting program questions and their solutions to provide insights into the 8086 microprocessor's workings.
   
-- [Software & Online Tools](./software/README.md): Curated especially for those delving into assembly programs, this section lists software utilities and online platforms crucial for understanding, running, and simulating assembly code in microprocessor contexts.
+- [Software & Online Tools](./softwares/README.md): Curated especially for those delving into assembly programs, this section lists software utilities and online platforms crucial for understanding, running, and simulating assembly code in microprocessor contexts.
 
 ## For Contributors
 Are you enthused about microprocessors and wish to make a meaningful contribution? This space welcomes you! To ensure a seamless and collaborative contribution experience, please abide by the directives specified in [CONTRIBUTING.md](./CONTRIBUTING.md).
