@@ -15,5 +15,5 @@ This repository is dedicated to serving two main objectives. Firstly, it hosts a
 Are you enthused about microprocessors and wish to make a meaningful contribution? This space welcomes you! To ensure a seamless and collaborative contribution experience, please abide by the directives specified in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Contributors
-[![Contributors](https://contrib.rocks/image?repo=computerclubkec/microprocessor)](https://github.com/computerclubkec/microprocessor-programs-tools/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=computerclubkec/microprocessor)](https://github.com/computerclubkec/microprocessor/graphs/contributors)
 
