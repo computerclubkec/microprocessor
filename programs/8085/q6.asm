@@ -1,5 +1,5 @@
 ; Load any hex number in register D and E and add these numbers.
-; If sum is greater than FFH, display 01H at output post FEH otherwise displaysum at same port.
+; If the sum is greater than FFH, display 01H at the output port FEH otherwise display sum at the same port.
 
 MVI D, 20H     ; Load 20H in register D
 MVI C, C9H     ; Load C9H in register C
