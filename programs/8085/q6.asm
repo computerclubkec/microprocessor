@@ -1,4 +1,4 @@
-; Write a program in 8085 to multiply two 8-bit data 05H and 08H and store the result at memory location 2500H.
+; Write a program in 8085 to multiply two 8-bit data 05H and 08H by using repetitive addition method and store the result at memory location 2500H.
 
 LXI H, 2500H  ; Load the memory location 2500H into the HL register pair.
 MVI A, 05H   ; Load the first 8-bit value (05H) into the accumulator (A).
