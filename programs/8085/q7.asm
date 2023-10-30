@@ -1,5 +1,5 @@
 ; Load any hex number in register D and E and subtract these numbers.
-; If there is borrow, display 01H at output post FEH, otherwise display 80H at same port.
+; If there is borrow, display 01H at the output port FEH, otherwise display 80H at the same port.
 
 MVI D, 44H     ; Load 44H in register D
 MVI E, 22H     ; Load 22H in register E
