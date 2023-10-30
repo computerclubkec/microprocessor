@@ -1,4 +1,4 @@
-; 16 bytes of data ar stored from address 3000H to 300FH.
+; 16 bytes of data are stored from address 3000H to 300FH.
 ; Transfer these blocks of data to destination whose starting address is 2000H.
 
 LXI H,3000H ; Initialize H-L pair to point to source
