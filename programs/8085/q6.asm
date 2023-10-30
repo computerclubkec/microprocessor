@@ -9,7 +9,3 @@ JNC LABEL      ; Jump to LABEL if no carry
 MVI A, 01H     ; Load 01H in accumulator
 LABEL: OUT FEH  ; Display output at port FEH
 HLT            ; Halt the program
-
-
-
-
