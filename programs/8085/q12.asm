@@ -25,4 +25,4 @@ SKIP:              ; Label for jump
     HLT           ; Halt the program
 
 #org 8850          ; Start of the data at memory location 8850
-#db 04,08,06       ; Define bytes with values 04, 08, 06
+#DB 04H,08H,06H       ; Define bytes with values 04H, 08H, 06H
