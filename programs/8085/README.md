@@ -16,3 +16,4 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q9](q9.asm): WAP to move a block of 10 bytes of data stored continuously at starting address 6000H to starting address 6004H.
 - [x] [q10](q10.asm): Check if bit D6 of a data is 1. If yes move it to registerD else insert FFH in register D.
 - [x] [q11](q11.asm): Write a program in 8085 to multiply two 8-bit data 05H and 08H by using repetitive addition method and store the result at memory location 2500H.
+- [x] [q12](q12.asm): Write a program in 8085 to sort the array of 8-bit datas starting from 8850H in ascending order.
