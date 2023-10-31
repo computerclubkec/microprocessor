@@ -4,7 +4,7 @@ MVI C,03           ; Load immediate value 03 into register C as number of datas 
 
 LOOP:              ; Start of the outer loop
     MOV D,C       ; Move the value of C into D
-    LXI H,1120    ; Load register pair HL with the immediate value 1120
+    LXI H,8850H    ; Load register pair HL with the immediate value 8850H
 
 SORT:              ; Start of the inner loop (sorting routine)
     MOV A,M       ; Move the value pointed by HL into A
