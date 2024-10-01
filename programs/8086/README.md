@@ -1,4 +1,4 @@
-# 8085 Programs
+# 8086 Programs
 
 This directory contains assembly language programs for Intel 8086. The questions listed here falls under the syllabus of IOE(Institute of Engineering)
 
