@@ -19,3 +19,4 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q12](q12.asm): Write a program in 8085 to sort the array of 8-bit datas starting from 8850H in ascending order.
 - [x] [q13](q13.asm): WAP to convert an ASCII number stored at location 6100H to Binary. store the result to next memory location. use subroutine.
 - [x] [q14](q14.asm): WAP to convert an Binary number stored at location 6200H to ASCII. store the result to next memory location. use subroutine.
+- [x] [q15](q15.asm): WAP to find the 2’s complement of a number stored at memory location C100H and store the result at C101H. Use subroutines for complement and add operations.
