@@ -14,9 +14,11 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q7](q7.asm): Load any hex number in register D and E and subtract these numbers. If there is borrow, display 01H at output port FEH, otherwise display 80H at same port.
 - [x] [q8](q8.asm): 16 bytes of data ar stored from address 3000H to 300FH. Transfer these blocks of data to destination whose starting address is 2000H.
 - [x] [q9](q9.asm): WAP to move a block of 10 bytes of data stored continuously at starting address 6000H to starting address 6004H.
-- [x] [q10](q10.asm): Check if bit D6 of a data is 1. If yes move it to registerD else insert FFH in register D.
+- [x] [q10](q10.asm): Check if bit D6 of a data is 1. If yes move it to register D else insert FFH in register D.
 - [x] [q11](q11.asm): Write a program in 8085 to multiply two 8-bit data 05H and 08H by using repetitive addition method and store the result at memory location 2500H.
 - [x] [q12](q12.asm): Write a program in 8085 to sort the array of 8-bit datas starting from 8850H in ascending order.
 - [x] [q13](q13.asm): WAP to convert an ASCII number stored at location 6100H to Binary. store the result to next memory location. use subroutine.
 - [x] [q14](q14.asm): WAP to convert an Binary number stored at location 6200H to ASCII. store the result to next memory location. use subroutine.
 - [x] [q15](q15.asm): WAP to find the 2’s complement of a number stored at memory location C100H and store the result at C101H. Use subroutines for complement and add operations.
+- [x] [q16](q16.asm): WAP for 8085 to change the bit D5 of ten numbers stored at address 7600H if the numbers are larger than or equal to 80H
+- [x] [q17](q17.asm): WAP for 8085 to add ten 16-bit BCD numbers and store 24-bit BCD result at the end of the ten given numbers.
