@@ -1,4 +1,4 @@
-	;Write a program for 8085 to add the upper and lower nibble of ten 8 - bit words stored in a table that starts from location 8B20H. Store the separate results in locations just after the table.
+	;Write a program for 8085 to add the upper and lower nibble of ten 8 - bit words stored in a table that starts from location 8B20H. Store the separate results in locations just after the table.(2071, Regular/Back)
 	MVI C, 10H                   ; Initialize counter C (loop 10 times)
 	LXI H, 8B20H                 ; Source pointer to table start
 	LXI D, 3011H                 ; Destination pointer after the table

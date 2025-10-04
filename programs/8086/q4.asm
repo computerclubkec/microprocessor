@@ -1,4 +1,4 @@
-; Write an assembly language program to display words of the sentence in separate lines and to count the number of words presented in the entered sentence.
+; Write an assembly language program to display words of the sentence in separate lines and to count the number of words presented in the entered sentence.(2070, Regular)
 
 .model small 
 .stack 100 
