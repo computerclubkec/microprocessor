@@ -1,4 +1,4 @@
-; Write a program for 8085 to convert a 3-digit BCD number stored at memory locations 4000H, 4001H, and 4002H into its binary equivalent and store the result at memory location 5000H.
+; Write a program for 8085 to convert a 3-digit BCD number stored at memory locations 4000H, 4001H, and 4002H into its binary equivalent and store the result at memory location 5000H.(Similar to 2069,Regular)
 
 LXI H,4000H   ; Load HL register pair with the address 4000H
 MVI C,00H     ; Initialize register C to store the tens place

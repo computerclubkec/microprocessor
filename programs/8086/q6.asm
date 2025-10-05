@@ -1,4 +1,4 @@
-;  Write an assembly language program to perform the addition of numbers from 1 to n, where n being entered number by user having 3 digits.
+;  Write an assembly language program to perform the addition of numbers from 1 to n, where n being entered number by user having 3 digits.(Similar to 2074, Regular)
 
 .model small 
 .stack 32 

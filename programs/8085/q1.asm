@@ -1,4 +1,4 @@
-	; Write a program in 8085 to find the largest and smallest bytes from the list of 20 bytes stored starting from memory location C050 H. Store the largest byte and smallest byte in C070H and C071H.
+	; Write a program in 8085 to find the largest and smallest bytes from the list of 20 bytes stored starting from memory location C050 H. Store the largest byte and smallest byte in C070H and C071H.(2076, Back)
 	MVI C, 20H                   ; Initialize counter C to 20 (loop 20 times)
 	LXI H, C050                  ; Load the array address into HL (C050)
 	
