@@ -17,3 +17,5 @@ This directory contains assembly language programs for Intel 8086. The questions
 - [x] [q11](q11.asm): Write assembly language program for 8086 to sort five numbers in ascending and descending order.
 - [x] [q12](q12.asm): Write an assembly language program to read a string from the user, convert it to upper case, count the number of words and display each word in each line and number of words.
 - [x] [q13](q13.asm): Write an 8086 assembly language program to sort ten 16-bit data stored in a table and display the numbers as decimal numbers in the screen.
+- [x] [q14](q14.asm): Write an assembly language program for 8086 to find the largest number among 10 numbers stored as arr.
+- [x] [q15](q15.asm): Write an assembly language program for 8086 to sort an array of ten numbers stored in memory. Display the numbers on the screen after sorting.
