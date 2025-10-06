@@ -19,3 +19,6 @@ This directory contains assembly language programs for Intel 8086. The questions
 - [x] [q13](q13.asm): Write an 8086 assembly language program to sort ten 16-bit data stored in a table and display the numbers as decimal numbers in the screen.
 - [x] [q14](q14.asm): Write an assembly language program for 8086 to find the largest number among 10 numbers stored as arr.
 - [x] [q15](q15.asm): Write an assembly language program for 8086 to sort an array of ten numbers stored in memory. Display the numbers on the screen after sorting.
+- [x] [q16](q16.asm): Write an assembly language program to perform the addition of 100 natural even numbers and display the sum in screen. [sum = n(n+1)].
+- [x] [q17](q17.asm): Write an assembly language program for sorting arrays of numbers and display each number in separate line.
+- [x] [q18](q18.asm): Write an assembly language program to calculate the sum of the series 1² + 2² + 3² + 4² + … up to ten terms and display the result.
