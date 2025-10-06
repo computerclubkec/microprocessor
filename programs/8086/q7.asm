@@ -1,4 +1,4 @@
-;Write an ALP in 8086 to read a string in parametric way and display number of vowels and digits in clear window.(2079, Back)
+; Write an ALP in 8086 to read a string in parametric way and display number of vowels and digits in clear window.(2079, Back)
 
 .model small           
 .stack 100h            
