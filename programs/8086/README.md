@@ -22,3 +22,6 @@ This directory contains assembly language programs for Intel 8086. The questions
 - [x] [q16](q16.asm): Write an assembly language program to perform the addition of 100 natural even numbers and display the sum in screen. [sum = n(n+1)].
 - [x] [q17](q17.asm): Write an assembly language program for sorting arrays of numbers and display each number in separate line.
 - [x] [q18](q18.asm): Write an assembly language program to calculate the sum of the series 1² + 2² + 3² + 4² + … up to ten terms and display the result.
+- [x] [q19](q19.asm): Write down an assembly language program to read a string and display each word on different lines of a clear screen.
+- [x] [q20](q20.asm): Write a program to read a string, convert the small case letters to upper case and display the converted string in the next line.
+- [x] [q21](q21.asm): Write an 8086 assembly language program to separate words from a string. Display each word in a separate line.
