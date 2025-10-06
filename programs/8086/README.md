@@ -11,3 +11,6 @@ This directory contains assembly language programs for Intel 8086. The questions
 - [x] [q5](q5.asm): Write an assembly language program to get nth number from the user and sum the odd numbers from 1 to nth term and display sum. [sum = n2]
 - [x] [q6](q6.asm): Write an assembly language program to perform the addition of numbers from 1 to n, where n being entered number by user having 3 digits.
 - [x] [q7](q7.asm): Write an ALP in 8086 to read a string in parametric way and display number of vowels and digits in clear window.(2079, Back)
+- [x] [q8](q8.asm): Write down an assembly language program to read a string and count the no of vowels in the string. Display the no of vowels in the string and the string without the vowels in it in a clear screen with reverse attribute.
+- [x] [q9](q9.asm): Write an assembly language program to get string input; count no. of vowels and display message ‘even vowels’ on the screen if the count is even otherwise display ‘odd vowels’.
+- [x] [q10](q10.asm): Write an assembly language program for 8086 to read string count the number of vowels in the string and display the string and its vowels count in a clear screen.
