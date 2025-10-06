@@ -15,4 +15,5 @@ This directory contains assembly language programs for Intel 8086. The questions
 - [x] [q9](q9.asm): Write an assembly language program to get string input; count no. of vowels and display message ‘even vowels’ on the screen if the count is even otherwise display ‘odd vowels’.
 - [x] [q10](q10.asm): Write an assembly language program for 8086 to read string count the number of vowels in the string and display the string and its vowels count in a clear screen.
 - [x] [q11](q11.asm): Write assembly language program for 8086 to sort five numbers in ascending and descending order.
-- [x] [q12](q12.asm): Write an assembly language program to read a string from the user, convert it to upper case, count the number of words and display each word in each line and number of words. 
+- [x] [q12](q12.asm): Write an assembly language program to read a string from the user, convert it to upper case, count the number of words and display each word in each line and number of words.
+- [x] [q13](q13.asm): Write an 8086 assembly language program to sort ten 16-bit data stored in a table and display the numbers as decimal numbers in the screen.
