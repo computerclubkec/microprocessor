@@ -39,10 +39,8 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q33](q33.asm): A binary number (Suppose FF: 1111 11112) is stored in memory location 2020H. Convert the number into BCD and store each BCD as two unpacked BCD digits in memory location from 2030H.
 - [x] [q34](q34.asm): WAP to read BCD number stored at memory location 2020H and converts it into binary equivalent and finally stores that binary pattern into memory location 2030H. [Note: BCD number is the combination from 0 to 9]
 - [x] [q35](q35.asm): A set of eight data bytes (4 Pairs) are stored in memory locations starting from 1040H. WAP to add two bytes at a time and store the sum in same memory location, sum replacing the first byte and the carry replacing the second byte. If any pair does not generate a carry,the memory location of the second byte should be cleared i.e. store 00H over there.
-- [x] [q36] (q36.asm): A set of six data bytes is stored starting from memory location 2050H. The set includes some 
-blank spaces (bytes with zero values). WAP to eliminate the blanks from the block.
-- [x] [q37] (q37.asm): For ten bytes data starting from 1120H, write a program to sort the reading in ascending and 
-in descending order. 
+- [x] [q36] (q36.asm): A set of six data bytes is stored starting from memory location 2050H. The set includes some blank spaces (bytes with zero values). WAP to eliminate the blanks from the block.
+- [x] [q37] (q37.asm): For ten bytes data starting from 1120H, write a program to sort the reading in ascending and in descending order. 
 - [ ] [q38](q38.asm): WAP in 8085 to count number of 1-bits in each of 15 bytes starting at D000H and store counts consecutively at D010H.
 - [ ] [q39](q39.asm): WAP in 8085 to rotate each byte of a 32-byte table at E000H right by 3 positions and store results at E020H.
 - [ ] [q40](q40.asm): WAP in 8085 to swap two blocks of 10 bytes: block A at 9000H and block B at 9010H.
