@@ -9,7 +9,7 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q3](q3.asm): Write a program for 8085 to check if the number in memory 2000H is even or odd. If the number is even store 22H in next memory location else store 11H in next memory.
 - [x] [q4](q4.asm): Write an 8085 assembly language program that converts a binary number located at memory address 3000H into a BCD (Binary Coded Decimal) format. The BCD result should be stored at memory locations 4000H, 4001H, and 4002H. Use subroutines 'CONVERT' and 'STORE' to carry out the conversion and storage operations.
 - [x] [q5](q5.asm): Write a program for 8085 to convert a 3-digit BCD number stored at memory locations 4000H, 4001H, and 4002H into its binary equivalent and store the result at memory location 5000H.(Similar to 2069,Regular)
-- [x] [q6](q6.asm): Load any hex number in register D and E and add these numbers. If sum is greater than FFH, display 01H at output port FEH otherwise displaysum at same port.
+- [x] [q6](q6.asm): Load any hex number in register D and E and add these numbers. If sum is greater than FFH, display 01H at output port FEH otherwise display sum at same port.
 - [x] [q7](q7.asm): Load any hex number in register D and E and subtract these numbers. If there is borrow, display 01H at output port FEH, otherwise display 80H at same port.
 - [x] [q8](q8.asm): 16 bytes of data ar stored from address 3000H to 300FH. Transfer these blocks of data to destination whose starting address is 2000H.
 - [x] [q9](q9.asm): WAP to move a block of 10 bytes of data stored continuously at starting address 6000H to starting address 6004H.
@@ -30,23 +30,26 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q24](q24.asm): Write a program to transfer eight-bit numbers from 9080H to 9090H if bit D5 is 1 and D3 is 0. Otherwise transfer data by changing bit D2 and D6 from 1 to 0 or from 0 to 1. Assume there are ten numbers.(2064 Shrawan)
 - [x] [q25](q25.asm): There are two tables T1, T2 in memory having ten eight bit data in each. Write a program for 8085 to find the difference of the corresponding element of these two tables.Store the result of each operation on the corresponding element of the third table. Remember that the result should not be negative ; it should be |T1 – T2|.(2064 Poush)
 - [x] [q26](q26.asm): Write a program for 8085 to transfer data from a table to another if the number of ones in the data is greater than four else store 00 in the next table.(2065 Kartik)
-- [ ] [q27](q27.asm): WAP in 8085 to count number of 1-bits in each of 15 bytes starting at D000H and store counts consecutively at D010H.
-- [ ] [q28](q28.asm): WAP in 8085 to rotate each byte of a 32-byte table at E000H right by 3 positions and store results at E020H.
-- [ ] [q29](q29.asm): WAP in 8085 to swap two blocks of 10 bytes: block A at 9000H and block B at 9010H.
-- [ ] [q30](q30.asm): WAP in 8085 to increment each of 20 BCD digits at 4300H by 1 (with BCD correction) and store results at 4314H.
-- [ ] [q31](q31.asm): WAP in 8085 to search for a byte key in a table starting at B000H (length at BFFFH). If found, store offset at B100H else store FFH.
-- [ ] [q32](q32.asm): WAP in 8085 to compute factorial of a number (≤8) stored at 7000H using subroutine FACT. Store result at 7001H–7002H.
-- [ ] [q33](q33.asm): WAP in 8085 to count how many of 40 bytes at 8200H are greater than 7FH and store count at 8300H.
-- [ ] [q34](q34.asm): WAP in 8085 to convert 8 ASCII digits from 6100H into packed BCD and store result at 6110H.
-- [ ] [q35](q35.asm): WAP in 8085 to compute average of 16 signed 8-bit numbers stored at 9400H and store result at 9410H.
-- [ ] [q36](q36.asm): WAP in 8085 to left-shift each byte of a 25-byte table at A200H by 2 bits. Store shifted data at A219H and number of carries at A232H.
-- [ ] [q37](q37.asm): WAP in 8085 to add two 16-bit numbers stored at 5000H and 5002H. Store 16-bit sum at 5004H.
-- [ ] [q38](q38.asm): WAP in 8085 to reverse a block of 20 bytes beginning at C500H.
-- [ ] [q39](q39.asm): WAP in 8085 to replace all occurrences of AAH with 55H in a table starting at D200H (length at D1FFH).
-- [ ] [q40](q40.asm): WAP in 8085 to implement a delay subroutine DELAY that produces delay proportional to count in register B.
-- [ ] [q41](q41.asm): WAP in 8085 to add two arrays element-wise: array1 at 6000H, array2 at 6010H (length=10). Store results at 6020H and set 602AH=01H if any carry occurs.
-- [ ] [q42](q42.asm): WAP in 8085 to convert 30 ASCII characters starting at 9200H to uppercase and copy to 9300H.
-- [ ] [q43](q43.asm): WAP in 8085 to check parity of each byte in a 50-byte table at A300H and store 01H at A400H if even parity else 00H.
-- [ ] [q44](q44.asm): WAP in 8085 to divide a 16-bit number at 7400H by an 8-bit divisor at 7402H. Store quotient at 7404H–7405H and remainder at 7406H.(Similar to 2070, New Back)
-- [ ] [q45](q45.asm): WAP in 8085 to concatenate two tables: T1 at B100H, T2 at B200H. Copy them into B300H and store final length at B2FFH.
-- [ ] [q46](q46.asm): WAP to find the 2’s complement of a number stored at memory location C100H and store the result at C101H. Use subroutines for complement and add operations.
+- [x] [q27](q27.asm): A dividend is stored in memory location 2020H and a divisor is stored in 2021H. WAP to divide these numbers and store quotient and remainder from 2040H.
+- [x] [q28](q28.asm): A set of ten packed BCD numbers is stored in the memory location starting at 1150H. WAP to add these numbers in BCD. If carry is generated save it in register B and adjust it for BCD. The final sum is less than 9999 BCD.
+- [x] [q29](q29.asm): A multiplicand is stored in memory location 1150H and a multiplier is stored in location 1151H. WAP to multiply these numbers and store result from 1160H.
+- [ ] [q30](q30.asm): WAP in 8085 to count number of 1-bits in each of 15 bytes starting at D000H and store counts consecutively at D010H.
+- [ ] [q31](q31.asm): WAP in 8085 to rotate each byte of a 32-byte table at E000H right by 3 positions and store results at E020H.
+- [ ] [q32](q32.asm): WAP in 8085 to swap two blocks of 10 bytes: block A at 9000H and block B at 9010H.
+- [ ] [q33](q33.asm): WAP in 8085 to increment each of 20 BCD digits at 4300H by 1 (with BCD correction) and store results at 4314H.
+- [ ] [q34](q34.asm): WAP in 8085 to search for a byte key in a table starting at B000H (length at BFFFH). If found, store offset at B100H else store FFH.
+- [ ] [q35](q35.asm): WAP in 8085 to compute factorial of a number (≤8) stored at 7000H using subroutine FACT. Store result at 7001H–7002H.
+- [ ] [q36](q36.asm): WAP in 8085 to count how many of 40 bytes at 8200H are greater than 7FH and store count at 8300H.
+- [ ] [q37](q37.asm): WAP in 8085 to convert 8 ASCII digits from 6100H into packed BCD and store result at 6110H.
+- [ ] [q38](q38.asm): WAP in 8085 to compute average of 16 signed 8-bit numbers stored at 9400H and store result at 9410H.
+- [ ] [q39](q39.asm): WAP in 8085 to left-shift each byte of a 25-byte table at A200H by 2 bits. Store shifted data at A219H and number of carries at A232H.
+- [ ] [q40](q40.asm): WAP in 8085 to add two 16-bit numbers stored at 5000H and 5002H. Store 16-bit sum at 5004H.
+- [ ] [q41](q41.asm): WAP in 8085 to reverse a block of 20 bytes beginning at C500H.
+- [ ] [q42](q42.asm): WAP in 8085 to replace all occurrences of AAH with 55H in a table starting at D200H (length at D1FFH).
+- [ ] [q43](q43.asm): WAP in 8085 to implement a delay subroutine DELAY that produces delay proportional to count in register B.
+- [ ] [q44](q44.asm): WAP in 8085 to add two arrays element-wise: array1 at 6000H, array2 at 6010H (length=10). Store results at 6020H and set 602AH=01H if any carry occurs.
+- [ ] [q45](q45.asm): WAP in 8085 to convert 30 ASCII characters starting at 9200H to uppercase and copy to 9300H.
+- [ ] [q46](q46.asm): WAP in 8085 to check parity of each byte in a 50-byte table at A300H and store 01H at A400H if even parity else 00H.
+- [ ] [q47](q47.asm): WAP in 8085 to divide a 16-bit number at 7400H by an 8-bit divisor at 7402H. Store quotient at 7404H–7405H and remainder at 7406H.(Similar to 2070, New Back)
+- [ ] [q48](q48.asm): WAP in 8085 to concatenate two tables: T1 at B100H, T2 at B200H. Copy them into B300H and store final length at B2FFH.
+- [ ] [q49](q49.asm): WAP to find the 2’s complement of a number stored at memory location C100H and store the result at C101H. Use subroutines for complement and add operations.
