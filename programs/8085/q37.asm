@@ -1,3 +1,6 @@
+;For ten bytes data starting from 1120H, 
+;write a program to sort the reading in ascending and in descending order.
+
 START: LXI H, 1120H 
 MVI D, 00H 
 MVI C, 0AH 
