@@ -49,8 +49,8 @@ This directory contains assembly language programs for Intel 8085. The questions
 - [x] [q43](q43.asm): Sixteen data are stored in memory location at 1050H to 105FH. Transfer the entire block of data to new location starting at 1070H.
 - [x] [q44](q44.asm): Six bytes are stored in memory locations starting at 2050H. Add all the data bytes, save any carry generated while adding the data bytes. Display entire sum at two output ports and store total carry in 2070H and sum in 2071H.
 - [x] [q45](q45.asm): If the content of memory location 2050H is greater than or equal to 64H, display 0FH else display FFH.
-- [ ] [q46](q46.asm): WAP in 8085 to count number of 1-bits in each of 15 bytes starting at D000H and store counts consecutively at D010H.
-- [ ] [q47](q47.asm): WAP in 8085 to rotate each byte of a 32-byte table at E000H right by 3 positions and store results at E020H.
+- [x] [q46](q46.asm): WAP in 8085 to count number of 1-bits in each of 15 bytes starting at D000H and store counts consecutively at D010H.
+- [x] [q47](q47.asm): WAP in 8085 to rotate each byte of a 32-byte table at E000H right by 3 positions and store results at E020H.
 - [ ] [q48](q48.asm): WAP in 8085 to swap two blocks of 10 bytes: block A at 9000H and block B at 9010H.
 - [ ] [q49](q49.asm): WAP in 8085 to increment each of 20 BCD digits at 4300H by 1 (with BCD correction) and store results at 4314H.
 - [ ] [q50](q50.asm): WAP in 8085 to search for a byte key in a table starting at B000H (length at BFFFH). If found, store offset at B100H else store FFH.
